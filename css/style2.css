@@ -1,4 +1,39 @@
-h1{
+/* h1{
     background-color: rgb(44, 83, 36);
     color: aliceblue;
 }
+
+div{
+    height: 200px;
+    max-width: 500px;
+    background-color: darkseagreen;
+} */
+
+body{
+    /* background-color: rgb(42, 165, 165); */
+   background: url(./images/1.png);
+    background-size: cover;
+}
+ 
+div{
+    width: 300px;
+    border: 15px solid rgb(128, 0, 0);
+    padding: 50px;
+    margin: 50px;
+} 
+
+p{
+    /* color: rgb(151, 47, 99);
+    /* /* color: rgb(rgb(156, 83, 83), rgb(45, 70, 45), rgb(42, 42, 58));
+    color: #fff */ */
+
+    color: black;
+    font-size: 30px;
+    border: solid black;
+
+    border-style: solid;
+    border-color: black;
+    border: 2;
+
+
+} 
