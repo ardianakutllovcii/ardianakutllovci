@@ -66,3 +66,19 @@ div{
 
 
 }
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: rgb(226, 43, 202);
+}
+
+a:active{
+    color: rgb(208, 226, 43);
+}
