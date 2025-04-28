@@ -1,0 +1,77 @@
+/* article p{
+    background-color: rgb(57, 22, 216);
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+article >p{
+    background-color: blueviolet;
+
+}
+
+article ~ p{
+    background-color: rgb(207, 0, 190);
+    color: aliceblue;
+    padding: 20px;
+}
+
+article + p{
+    background-color: rgb(219, 106, 41);
+
+} */
+
+/* h3:first-child{
+    background-color: rgb(233, 210, 6);
+    color: white;
+} */
+
+/* input:in-range{
+    border: 3px solid green;
+    
+}
+
+input:out-of-range{
+    border: 3px solid rgb(219, 12, 12);
+    
+}
+
+input:required{
+    background-color: #9ee5f0;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+span:first-of-type{
+    background-color: rgb(207, 0, 190);
+    color: aliceblue;
+    padding: 20px;
+} */
+
+input:invalid{
+    border: 3px solid  red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    font-size: 40px;
+}
+
+/* h1::before{
+    content: url("../images/1.png");
+} */
+
+
+h1::after{
+    content: url("../css/1.webp");
+}
+
+
