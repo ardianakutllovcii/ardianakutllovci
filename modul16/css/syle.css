@@ -18,3 +18,51 @@ div.desc{
     padding: 50px;
     text-align: center;
 }
+
+.sprite{
+    background: url(../images/houses.png);
+}
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    /* background-position: 0 0; */
+    background-position: -500px  -500px;
+}
+
+a[href="https://shkolladigjitale.com/"]{
+    color: rgb(230, 66, 120);
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    background-color: rgb(255, 230, 2);
+    color: white;
+    padding: 20px;
+}
+
+img[title^="2"]{
+    border: 2px solid rgb(235, 3, 42);
+}
+
+
+h1[class|="heading-1"]{
+    background-color: rgb(255, 0, 76);
+    color: white;
+    padding: 20px;
+}
+
+input[placeholder$="name"]{
+    border: 2px solid green;
+}
+
+input[readonly]{
+    border: 2px solid rgb(123, 2, 236);
+}
+
