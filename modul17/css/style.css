@@ -54,7 +54,7 @@
     border-color: black transparent transparent transparent;
  }
   */
-
+/* 
   body{
     counter-reset: number;
   }
@@ -67,4 +67,30 @@
     padding: 5px 12px;
     color: 00014e;
     margin: 10px;
+  } */
+
+  /* .root{
+    --primary-color: red;
+    --secondary-color: blue;
+    padding: 20px;
   }
+
+  h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+  }
+
+    p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+  }
+ */
+
+ img{
+  width: 150px;
+  height: 150px;
+  transition: .3s;
+
+ }
